@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Digital Identity Optimization for Open-Source Projects"
+type: presentation
+authors:
+  - family-names: "Beránek"
+    given-names: "Daniel"
+date-released: 2026-08-11
+url: "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/"
+repository-code: "https://github.com/dan-beranek/digital-identity-optimization-for-open-source-projects"
+abstract: >-
+  Applying Digital Identity Optimization (DIO) to open-source projects
+  as distributed, evolving digital entities across code, community,
+  governance, trust, and AI systems.
+keywords:
+  - digital-identity-optimization
+  - digital-identity
+  - open-source
+  - knowledge-graphs
+  - ai-search
+  - software-governance
+license: CC-BY-4.0
+references:
+  - type: dataset
+    title: "Manifest of Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI): Canonical Multilingual Edition"
+    authors:
+      - family-names: "Beránek"
+        given-names: "Daniel"
+    year: 2026
+    version: "1.0.0"
+    doi: "10.5281/zenodo.21610934"
+    url: "https://doi.org/10.5281/zenodo.21610934"
+  - type: article
+    title: "Digital Identity Optimization (DIO): A Conceptual Framework for Entity-Based Visibility in the Age of AI-Mediated Search"
+    authors:
+      - family-names: "Beránek"
+        given-names: "Daniel"
+    year: 2026
+    doi: "10.5281/zenodo.21839423"
+    url: "https://doi.org/10.5281/zenodo.21839423"
