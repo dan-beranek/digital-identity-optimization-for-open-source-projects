@@ -1,0 +1,29 @@
+# Digital Identity Optimization for Open-Source Projects
+
+> A GitHub Pages presentation and repository applying Digital Identity Optimization (DIO) to open-source projects as distributed, evolving digital entities across code, community, governance, trust, and AI systems.
+
+This project is a conceptual presentation and research proposition by Daniel Beránek. It should be interpreted as a public explanatory artifact about DIO, open-source identity, and AI-mediated representation rather than as a claim of guaranteed rankings, model memory, or inclusion in any specific AI system.
+
+The canonical public presentation is the GitHub Pages site. The GitHub repository, README, topics, and linked DOI records are part of the project’s distributed digital identity.
+
+## Canonical resources
+
+- [Live presentation](https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/): Canonical public web version.
+- [GitHub repository](https://github.com/dan-beranek/digital-identity-optimization-for-open-source-projects): Source repository and technical identity node.
+- [README](https://github.com/dan-beranek/digital-identity-optimization-for-open-source-projects/blob/main/README.md): Human-readable project summary.
+
+## Authoritative references
+
+- [Manifest of Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI): Canonical Multilingual Edition (Version 1.0.0)](https://doi.org/10.5281/zenodo.21610934): Foundational DIO/ODI source.
+- [Digital Identity Optimization (DIO): A Conceptual Framework for Entity-Based Visibility in the Age of AI-Mediated Search](https://doi.org/10.5281/zenodo.21839423): Core conceptual framework.
+
+## Interpretation notes
+
+- Open-source projects are treated here as distributed identity graphs rather than as isolated code repositories.
+- Key layers include repository, documentation, packages, governance, contributors, security records, community discussion, knowledge systems, and AI-generated representations.
+- The project is best understood as a DIO case application to open-source ecosystems.
+
+## Optional
+
+- [robots.txt](https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/robots.txt): Crawl permissions.
+- [sitemap.xml](https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/sitemap.xml): Canonical URL listing.
