@@ -1,0 +1,190 @@
+# Digital Identity Optimization for Open-Source Projects
+
+## Slide 1 — Digital Identity Optimization for Open-Source Projects
+
+Maintaining project identity across code, registries, community, governance, and AI systems.
+
+Digital Identity Optimization appears to be one of the few systems complex enough to maintain the identity of something as unstable, distributed, and constantly evolving as an open-source project.
+
+## Slide 2 — What does it mean for an open-source project to remain the same project?
+
+An open-source project can change its maintainers, organization, repository location, package name, license, governance structure, documentation, and infrastructure — yet users and contributors may still understand it as the same project.
+
+Repository moves → Maintainers change → Package is renamed → Same project?
+
+What remains invariant when everything around the project changes?
+
+## Slide 3 — Why open source is an ideal laboratory for DIO
+
+An open-source project is a single logical entity distributed across many heterogeneous surfaces. It is an unusually demanding environment for testing whether an identity framework can preserve coherence across change.
+
+Technical: repositories, packages, releases, documentation, dependencies, and security records.
+
+Human: maintainers, contributors, forks, discussions, tutorials, and community memory.
+
+Machine: knowledge graphs, search results, AI-generated descriptions, and recommendations.
+
+One project. Many representations. No single surface contains the whole identity.
+
+## Slide 4 — The project is not the repository
+
+It is a distributed identity graph spanning code, community, governance, trust, and machine reconstruction.
+
+Central entity: OPEN-SOURCE PROJECT — canonical entity.
+
+Technical representation: GitHub repository; package registry; documentation; security advisories; releases.
+
+Continuity and trust: contributors; maintainers; forks; company or foundation; governance; sponsors.
+
+Interpretation and reconstruction: Wikipedia / Wikidata; Stack Overflow; community discussions; AI-generated descriptions; AI recommendations.
+
+Each surface contributes a partial signal. DIO maintains coherence across the graph.
+
+## Slide 5 — Digital Identity Optimization: beyond SEO and content tweaks
+
+DIO is not primarily about optimizing a page, a keyword, a code snippet, or a single answer. It manages the identity of an entity across the systems in which that identity is represented and interpreted.
+
+SEO — Document: optimizes pages and documents for keyword-document matching.
+
+AIO / AEO — Information fragment: optimizes quotable content for AI-generated answers.
+
+DIO — Digital entity: optimizes coherence across the project’s distributed identity.
+
+DIO treats the open-source project as a full-fledged digital entity — not merely as a repository URL, package name, or collection of code files.
+
+## Slide 6 — From pages to answers to entities
+
+SEO: object — web document; mechanism — keyword-document matching; output — ranked page.
+
+AIO / AEO: object — information fragment; mechanism — quotable content; output — answer inclusion.
+
+DIO: object — digital entity; mechanism — coherent representation; output — entity recommendation.
+
+Applying DIO means moving beyond optimizing documentation or answers to optimizing the project as a stable entity.
+
+## Slide 7 — Entity → Representation → Interpretation → Trust → Relationship → Reconstruction
+
+The DIO identity cycle describes how an entity becomes legible and persistent across heterogeneous systems.
+
+Entity: name, purpose, scope, ecosystem, license, governance.
+
+Representation: repository, package, README, docs, releases, security, talks.
+
+Interpretation: how people, search systems, knowledge graphs, and LLMs infer what the project is.
+
+Trust: adoption, maintenance, CI health, security, release cadence, transparency.
+
+Relationship: contributors, maintainers, forks, sponsors, foundations, adopters.
+
+Reconstruction: how AI assembles signals and decides what to recommend.
+
+The project’s identity is not stored in one place. It is continuously reconstructed from relationships among representations.
+
+## Slide 8 — Human-facing, technical, and AI reconstruction
+
+Human-Facing Interpretation: README, website, documentation, tutorials, talks, contribution guidelines, issue templates, and community discussions. Shapes meaning in human minds.
+
+Pre-AI Technical Representation: repository and registry metadata, structured data, canonical URLs, versions, tags, licenses, advisories, and knowledge graphs. Encodes the project in machine-readable forms.
+
+AI-Mediated Reconstruction: AI search, generated summaries, recommendations, RAG systems, generated documentation, and origin-versus-fork disambiguation. Reconstructs what the project is.
+
+A DIO implementation must work across all three domains simultaneously.
+
+## Slide 9 — Where open-source project identity breaks down
+
+Fork confusion: forks, descendants, and abandoned variants are mistaken for the canonical project.
+
+Repository drift: the repository moves, but old URLs and descriptions remain active elsewhere.
+
+Package fragmentation: multiple package names, scopes, registries, and legacy identifiers lack clear relationships.
+
+Documentation divergence: different versions describe different project states and do not identify the canonical one.
+
+Governance ambiguity: the roles of maintainers, foundations, sponsors, and companies are unclear.
+
+Trust-surface fragmentation: releases, security, issue activity, and maintenance signals are disconnected.
+
+Identity Collapse: related representations fail to resolve into one coherent project identity.
+
+AI Hesitation: an AI system cannot confidently identify, distinguish, or recommend the correct project.
+
+## Slide 10 — Implementing DIO on one open-source project
+
+Implementing DIO is not adding keywords to a README. It is a structured process from diagnosis to reconstruction, semantic infusion, and validation.
+
+1. Detect discrepancies — inventory repositories, registries, docs, releases, forks, community, security, knowledge graphs, and AI descriptions.
+
+2. Calibrate the identity vector — define the problem, users, category, distinctiveness, ecosystem, and core promise.
+
+3. Deconstruct the signals — examine README, docs, templates, licenses, policies, and release notes.
+
+4. Synthesize and reconstruct — define canonical naming, project history, relationships, governance, and version structure.
+
+5. Infuse semantic coherence — apply the model across repository, registries, website, docs, community, and knowledge surfaces.
+
+6. Validate and iterate — test human, search, AI, package-discovery, and documentation interpretations.
+
+## Slide 11 — DIO turns scattered signals into a coherent identity system
+
+Before DIO: repository says one thing; registry uses another name; documentation preserves legacy language; forks are not contextualized; AI descriptions mix variants.
+
+After DIO: canonical identity is explicit; repository and package relationships are clear; documentation reflects the current state; governance and history are legible; AI receives a coherent identity footprint.
+
+DIO does not erase change. It makes change interpretable.
+
+## Slide 12 — What an open-source project gains from DIO
+
+Canonical identity: users and systems identify the primary project, package, docs, and version.
+
+Continuity: the project remains recognizable when people, organizations, or infrastructure change.
+
+Disambiguation: forks, abandoned variants, and similarly named tools become distinguishable.
+
+Trust surface: maintenance, releases, security, governance, and relationships reinforce each other.
+
+AI reconstruction: AI systems gain a clearer basis for describing and recommending the project.
+
+DIO does not manufacture trust. It makes existing identity and trust signals more coherent, legible, and relationally interpretable.
+
+## Slide 13 — An unstable project identity before and after DIO
+
+Imagine a library that changed its name, moved repositories, acquired new maintainers, published old and new package identifiers, accumulated forks, retained legacy documentation, and became inconsistently described by AI systems.
+
+Before: no clear canonical repository; mixed package names; outdated documentation; AI recommendations point to inconsistent artifacts.
+
+Intervention: map canonical project, history, forks, maintainers, packages, governance, security, and public descriptions. Standardize naming and relationships.
+
+After: the project remains identifiable across historical changes. Humans and AI can distinguish origin, fork, current version, and use case.
+
+DIO does not freeze the project. It preserves the intelligibility of its continuity.
+
+## Slide 14 — DIO as a general identity model — and OSS as its stress test
+
+If the same model works for an open-source project, an enterprise, an NGO, an academic researcher, and a public institution, DIO may be more than a method for optimizing digital identity.
+
+Entity → Representations → Interpretations → Trust → Relationships → Reconstruction.
+
+It may be a general model of how digital entities acquire, maintain, and reconstruct identity across heterogeneous information systems.
+
+Open source is not merely another application domain. It is a demanding test of whether the model can survive real-world change.
+
+## Slide 15 — Select one project. Run full DIO.
+
+Select an active open-source project with a complex identity footprint and implement DIO across its major surfaces.
+
+Choose a project with: active repository and releases; package registry presence; forks or descendants; contributor community; public docs, security, and governance; visible AI or search presence.
+
+Measure the identity: can humans identify the canonical project? Can users distinguish forks and versions? Are package and repository relationships clear? Do AI systems describe it consistently? Does AI recommend the correct project? Are trust signals legible?
+
+The implementation becomes both a practical intervention and a case study of DIO’s general applicability.
+
+## Slide 16 — Sources and final proposition
+
+Beránek, D. (2026). Manifest of Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI): Canonical Multilingual Edition (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21610934
+
+Beránek, D. (2026). Digital Identity Optimization (DIO): A Conceptual Framework for Entity-Based Visibility in the Age of AI-Mediated Search. Zenodo. https://doi.org/10.5281/zenodo.21839423
+
+An open-source project is not merely a repository of code. It is a living digital entity whose identity is continuously distributed across code, packages, documentation, forks, contributors, maintainers, releases, governance, security, community discourse, knowledge systems, and AI-generated reconstructions.
+
+The project changes.
+Its identity should remain intelligible.
