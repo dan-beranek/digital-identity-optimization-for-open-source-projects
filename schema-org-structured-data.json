@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["Article", "TechArticle", "PresentationDigitalDocument"],
+  "@id": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#presentation",
+  "name": "Digital Identity Optimization for Open-Source Projects",
+  "description": "Applying Digital Identity Optimization (DIO) to open-source projects as distributed, evolving digital entities across code, community, governance, trust, and AI systems.",
+  "text": "A 16-slide presentation about applying Digital Identity Optimization to open-source projects.",
+  "url": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/",
+  "version": "1.0.0",
+  "datePublished": "2026-08-12",
+  "inLanguage": "en",
+  "about": [
+    {"@type":"Thing","name":"Digital Identity Optimization"},
+    {"@type":"Thing","name":"Open-source software"},
+    {"@type":"Thing","name":"AI-mediated search"},
+    {"@type":"Thing","name":"Software project governance"}
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Digital Identity Optimization for Open-Source Projects",
+    "url": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/"
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://danielberanek.cz/#person",
+    "name": "Daniel Beránek",
+    "url": "https://danielberanek.cz/"
+  },
+  "citation": [
+    "https://doi.org/10.5281/zenodo.21610934",
+    "https://doi.org/10.5281/zenodo.21839423"
+  ],
+  "hasPart": [
+    {"@type":"PresentationDigitalDocument","name":"Digital Identity Optimization for Open-Source Projects","description":"Title and central proposition.","text":"Maintaining project identity across code, registries, community, governance, and AI systems. Digital Identity Optimization appears to be one of the few systems complex enough to maintain the identity of something as unstable, distributed, and constantly evolving as an open-source project.","position":1,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-1"},
+    {"@type":"PresentationDigitalDocument","name":"What does it mean for an open-source project to remain the same project?","description":"The identity-continuity question.","text":"An open-source project can change its maintainers, organization, repository location, package name, license, governance structure, documentation, and infrastructure yet still be understood as the same project.","position":2,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-2"},
+    {"@type":"PresentationDigitalDocument","name":"Why open source is an ideal laboratory for DIO","description":"Open source as a demanding DIO environment.","text":"An open-source project is a single logical entity distributed across many heterogeneous surfaces: technical, human, and machine.","position":3,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-3"},
+    {"@type":"PresentationDigitalDocument","name":"The project is not the repository","description":"The distributed identity graph of an open-source project.","text":"The project is represented across repositories, package registries, documentation, releases, security advisories, contributors, maintainers, forks, foundations, governance, community discussions, Wikipedia, Wikidata, AI-generated descriptions, and AI recommendations.","position":4,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-4"},
+    {"@type":"PresentationDigitalDocument","name":"Digital Identity Optimization: beyond SEO and content tweaks","description":"DIO operates at the level of the entity.","text":"SEO optimizes documents. AIO and AEO optimize information fragments. DIO optimizes coherence across the project’s distributed identity.","position":5,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-5"},
+    {"@type":"PresentationDigitalDocument","name":"From pages to answers to entities","description":"Three generations of visibility.","text":"SEO addresses web documents, AIO and AEO address information fragments, and DIO addresses digital entities.","position":6,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-6"},
+    {"@type":"PresentationDigitalDocument","name":"Entity to reconstruction identity cycle","description":"The DIO identity cycle applied to open source.","text":"Entity, Representation, Interpretation, Trust, Relationship, and Reconstruction.","position":7,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-7"},
+    {"@type":"PresentationDigitalDocument","name":"Human-facing, technical, and AI reconstruction","description":"The three DIO domains.","text":"Human-Facing Interpretation, Pre-AI Technical Representation, and AI-Mediated Reconstruction.","position":8,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-8"},
+    {"@type":"PresentationDigitalDocument","name":"Where open-source project identity breaks down","description":"Identity Collapse and AI Hesitation failure modes.","text":"Fork confusion, repository drift, package fragmentation, documentation divergence, governance ambiguity, and trust-surface fragmentation.","position":9,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-9"},
+    {"@type":"PresentationDigitalDocument","name":"Implementing DIO on one open-source project","description":"Six-step implementation process.","text":"Detect discrepancies; calibrate the identity vector; deconstruct the signals; synthesize and reconstruct; infuse semantic coherence; validate and iterate.","position":10,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-10"},
+    {"@type":"PresentationDigitalDocument","name":"DIO turns scattered signals into a coherent identity system","description":"Before and after DIO.","text":"DIO makes canonical identity, relationships, history, governance, and AI descriptions more coherent.","position":11,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-11"},
+    {"@type":"PresentationDigitalDocument","name":"What an open-source project gains from DIO","description":"Benefits of DIO implementation.","text":"Canonical identity, continuity, disambiguation, trust surface, and AI reconstruction.","position":12,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-12"},
+    {"@type":"PresentationDigitalDocument","name":"An unstable project identity before and after DIO","description":"Hypothetical open-source mini-case.","text":"DIO maps the canonical project, history, forks, maintainers, packages, governance, security, and public descriptions.","position":13,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-13"},
+    {"@type":"PresentationDigitalDocument","name":"DIO as a general identity model and OSS as its stress test","description":"DIO beyond a single application domain.","text":"DIO may be a general model of how digital entities acquire, maintain, and reconstruct identity across heterogeneous information systems.","position":14,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-14"},
+    {"@type":"PresentationDigitalDocument","name":"Select one project. Run full DIO.","description":"Research and implementation proposition.","text":"Select an active open-source project with a complex identity footprint and implement DIO across its major surfaces.","position":15,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-15"},
+    {"@type":"PresentationDigitalDocument","name":"Sources and final proposition","description":"Sources and concluding proposition.","text":"The project changes. Its identity should remain intelligible.","position":16,"url":"https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#slide-16"}
+  ]
+}
