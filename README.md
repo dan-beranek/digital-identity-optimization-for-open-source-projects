@@ -1,5 +1,8 @@
 # Digital Identity Optimization for Open-Source Projects
 
+
+This presentation applies Daniel Beránek’s Digital Identity Optimization (DIO) framework to open-source projects.
+
 ---
 
 ## DIO/ODI — Vocabulary & Reference Model
@@ -11,7 +14,6 @@ A machine-readable vocabulary and a reference model for Digital Identity Optimiz
 
 ---
 
-This presentation applies Daniel Beránek’s Digital Identity Optimization (DIO) framework to open-source projects.
 
 The central proposition is that an open-source project is not merely a repository of code. It is a distributed digital entity whose identity is continuously represented across repositories, package registries, documentation, releases, forks, contributors, maintainers, foundations, companies, security advisories, community discussions, knowledge systems, and AI-generated descriptions.
 
