@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate and validate canonical DIO/ODI page metadata for this static site."""
 from __future__ import annotations
-import argparse, hashlib, html, json, re, sys, urllib.request
+import argparse, difflib, hashlib, html, json, re, sys, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 REPOSITORY="dan-beranek/digital-identity-optimization-for-open-source-projects"
@@ -85,6 +85,7 @@ def update_page(path,pid,profile,terms,version):
     return re.sub(r'</head>',"\n".join(tags)+"\n</head>",content,count=1,flags=re.I)
 def build():
     raw,registry,source=load_registry(); sha=hashlib.sha256(raw).hexdigest()
+    print(f"Resolved registry {registry['registry_version']} via {source}; SHA-256 {sha}")
     outputs={"metadata/keyword-registry.snapshot.json":raw.decode("utf-8")}; artifacts=[]
     for pid,profile in sorted(registry.get("surface_profiles",{}).items()):
         s=profile.get("surface",{})
