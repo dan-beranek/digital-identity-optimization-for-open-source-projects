@@ -27,3 +27,7 @@ The canonical public presentation is the GitHub Pages site. The GitHub repositor
 
 - [robots.txt](https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/robots.txt): Crawl permissions.
 - [sitemap.xml](https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/sitemap.xml): Canonical URL listing.
+
+
+## Machine-readable page metadata
+- [Resolved page metadata](assets/data/resolved-page-metadata.json) — page-specific keyword projections, rationales, profile IDs, and canonical registry provenance.

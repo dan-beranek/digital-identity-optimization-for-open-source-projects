@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "site": {
+    "repository": "dan-beranek/digital-identity-optimization-for-open-source-projects",
+    "origin": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/"
+  },
+  "keyword_registry": {
+    "repository": "dan-beranek/dio-odi-reference-model",
+    "path": "metadata/keywords.json",
+    "registry_version": "2.11.0",
+    "status": "canonical-approved",
+    "sha256": "bd1c5f36b894329b1af65b3eea3905fdf8c2c05b6182a2bd11cdb16fce957114",
+    "source_url": "https://raw.githubusercontent.com/dan-beranek/dio-odi-reference-model/main/metadata/keywords.json",
+    "snapshot_path": "metadata/keyword-registry.snapshot.json"
+  },
+  "artifacts": [
+    {
+      "profile_id": "opensource-projects-home",
+      "status": "canonical-approved",
+      "scope": "derived-public-webpage",
+      "purpose": "Main presentation applying DIO to open-source projects as distributed, evolving identity-bearing objects across technical, community, governance, and machine-facing representations.",
+      "page": {
+        "page_key": "presentation",
+        "path": "index.html",
+        "url": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/",
+        "entity_id": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/#presentation",
+        "entity_type": null,
+        "entity_url": null
+      },
+      "chunk_selectors": {
+        "C0_identity_invariant": "all",
+        "C1_reconstruction_environments": [
+          "artificial intelligence",
+          "knowledge graphs"
+        ],
+        "C2_work_positioning": [
+          "open-source project identity",
+          "distributed project identity",
+          "project continuity across change",
+          "software project governance"
+        ],
+        "C3_reconstruction_mechanics": [
+          "distributed representational state",
+          "identity-preserving variation",
+          "referential continuity",
+          "semantic coherence"
+        ],
+        "C4_k6": "none",
+        "C5_failures_robustness": [
+          "Identity Collapse"
+        ],
+        "C6_machine_readable_representation": []
+      },
+      "resolved_keywords": [
+        "Digital Identity Optimization",
+        "DIO",
+        "Ontology of Digital Identity",
+        "ODI",
+        "digital identity",
+        "identity reconstruction",
+        "artificial intelligence",
+        "knowledge graphs",
+        "open-source project identity",
+        "distributed project identity",
+        "project continuity across change",
+        "software project governance",
+        "distributed representational state",
+        "identity-preserving variation",
+        "referential continuity",
+        "semantic coherence",
+        "Identity Collapse"
+      ],
+      "term_rationales": {
+        "artificial intelligence": "The presentation explicitly identifies AI systems and AI-generated descriptions or recommendations as machine-facing representations of open-source projects.",
+        "knowledge graphs": "The presentation explicitly names knowledge graphs as one of the machine-readable surfaces through which an open-source project is represented.",
+        "open-source project identity": "The presentation treats the open-source project itself, rather than only its repository, as the identity-bearing object.",
+        "distributed project identity": "The page describes the project as distributed across code, packages, documentation, governance, contributors, community, and machine-facing surfaces.",
+        "project continuity across change": "The central question asks what makes a project remain the same project when maintainers, repositories, package names, licenses, and governance change.",
+        "software project governance": "Governance structures and their changes are explicitly listed as identity-relevant project surfaces.",
+        "distributed representational state": "The project is described as one logical entity represented across heterogeneous technical, human, and machine surfaces.",
+        "identity-preserving variation": "The presentation distinguishes changes in maintainers, repositories, packages, and governance from the continuity of the project referent.",
+        "referential continuity": "The central identity-continuity question concerns whether changed representations still refer to the same open-source project.",
+        "semantic coherence": "The page explicitly frames the problem as maintaining coherence across the project's distributed identity representations.",
+        "Identity Collapse": "The presentation explicitly names identity collapse as a risk when the project's distributed representations are not kept coherent."
+      }
+    },
+    {
+      "profile_id": "opensource-projects-text",
+      "status": "canonical-approved",
+      "scope": "derived-public-webpage",
+      "purpose": "Text companion presenting the same DIO application to open-source projects as a distributed identity and continuity problem.",
+      "page": {
+        "page_key": "text-companion",
+        "path": "text-version.html",
+        "url": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/text-version.html",
+        "entity_id": "https://dan-beranek.github.io/digital-identity-optimization-for-open-source-projects/text-version.html#article",
+        "entity_type": null,
+        "entity_url": null
+      },
+      "chunk_selectors": {
+        "C0_identity_invariant": "all",
+        "C1_reconstruction_environments": [
+          "artificial intelligence",
+          "knowledge graphs"
+        ],
+        "C2_work_positioning": [
+          "open-source project identity",
+          "distributed project identity",
+          "project continuity across change",
+          "software project governance"
+        ],
+        "C3_reconstruction_mechanics": [
+          "distributed representational state",
+          "identity-preserving variation",
+          "referential continuity",
+          "semantic coherence"
+        ],
+        "C4_k6": "none",
+        "C5_failures_robustness": [
+          "Identity Collapse"
+        ],
+        "C6_machine_readable_representation": []
+      },
+      "resolved_keywords": [
+        "Digital Identity Optimization",
+        "DIO",
+        "Ontology of Digital Identity",
+        "ODI",
+        "digital identity",
+        "identity reconstruction",
+        "artificial intelligence",
+        "knowledge graphs",
+        "open-source project identity",
+        "distributed project identity",
+        "project continuity across change",
+        "software project governance",
+        "distributed representational state",
+        "identity-preserving variation",
+        "referential continuity",
+        "semantic coherence",
+        "Identity Collapse"
+      ],
+      "term_rationales": {
+        "artificial intelligence": "The presentation explicitly identifies AI systems and AI-generated descriptions or recommendations as machine-facing representations of open-source projects.",
+        "knowledge graphs": "The presentation explicitly names knowledge graphs as one of the machine-readable surfaces through which an open-source project is represented.",
+        "open-source project identity": "The presentation treats the open-source project itself, rather than only its repository, as the identity-bearing object.",
+        "distributed project identity": "The page describes the project as distributed across code, packages, documentation, governance, contributors, community, and machine-facing surfaces.",
+        "project continuity across change": "The central question asks what makes a project remain the same project when maintainers, repositories, package names, licenses, and governance change.",
+        "software project governance": "Governance structures and their changes are explicitly listed as identity-relevant project surfaces.",
+        "distributed representational state": "The project is described as one logical entity represented across heterogeneous technical, human, and machine surfaces.",
+        "identity-preserving variation": "The presentation distinguishes changes in maintainers, repositories, packages, and governance from the continuity of the project referent.",
+        "referential continuity": "The central identity-continuity question concerns whether changed representations still refer to the same open-source project.",
+        "semantic coherence": "The page explicitly frames the problem as maintaining coherence across the project's distributed identity representations.",
+        "Identity Collapse": "The presentation explicitly names identity collapse as a risk when the project's distributed representations are not kept coherent."
+      }
+    }
+  ]
+}
