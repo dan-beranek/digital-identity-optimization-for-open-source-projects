@@ -102,15 +102,23 @@ def build():
     outputs["assets/data/resolved-page-metadata.json"]=json.dumps(manifest,ensure_ascii=False,indent=2)+"\n"
     return outputs
 def main():
-    parser=argparse.ArgumentParser(); group=parser.add_mutually_exclusive_group(); group.add_argument("--check",action="store_true"); group.add_argument("--write",action="store_true"); args=parser.parse_args()
+    parser=argparse.ArgumentParser()
+    group=parser.add_mutually_exclusive_group()
+    group.add_argument("--check",action="store_true")
+    group.add_argument("--write",action="store_true")
+    args=parser.parse_args()
     try:
-        outputs=build(); stale=[]
+        outputs=build()
+        stale=[]
         for rel,want in outputs.items():
-            path=ROOT/rel; current=path.read_text(encoding="utf-8") if path.is_file() else None
+            path=ROOT/rel
+            current=path.read_text(encoding="utf-8") if path.is_file() else None
             if current!=want:
                 stale.append(rel)
-                if not args.check: path.parent.mkdir(parents=True,exist_ok=True); path.write_text(want,encoding="utf-8",newline="\n")
-if args.check and stale:
+                if not args.check:
+                    path.parent.mkdir(parents=True,exist_ok=True)
+                    path.write_text(want,encoding="utf-8",newline="\n")
+        if args.check and stale:
             print("Stale generated metadata:\\n"+"\\n".join("- "+x for x in stale),file=sys.stderr)
             manifest_path="assets/data/resolved-page-metadata.json"
             if manifest_path in stale and (ROOT/manifest_path).is_file():
@@ -119,6 +127,11 @@ if args.check and stale:
                 expected=outputs[manifest_path].splitlines()
                 print("\\n".join(difflib.unified_diff(committed,expected,fromfile="committed",tofile="expected",lineterm="")),file=sys.stderr)
             return 1
-        print("Page metadata is reproducible." if args.check else f"Generated {len(outputs)-2} page(s)."); return 0
-    except Exception as exc: print(f"PAGE METADATA BUILD FAILED: {exc}",file=sys.stderr); return 1
-if __name__=="__main__": raise SystemExit(main())
+        print("Page metadata is reproducible." if args.check else f"Generated {len(outputs)-2} page(s).")
+        return 0
+    except Exception as exc:
+        print(f"PAGE METADATA BUILD FAILED: {exc}",file=sys.stderr)
+        return 1
+
+if __name__=="__main__":
+    raise SystemExit(main())
