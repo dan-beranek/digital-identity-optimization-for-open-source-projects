@@ -10,9 +10,9 @@
     "registry_version": "2.11.0",
     "status": "canonical-approved",
     "sha256": "bd1c5f36b894329b1af65b3eea3905fdf8c2c05b6182a2bd11cdb16fce957114",
+    "source": "https://raw.githubusercontent.com/dan-beranek/dio-odi-reference-model/main/metadata/keywords.json",
     "source_url": "https://raw.githubusercontent.com/dan-beranek/dio-odi-reference-model/main/metadata/keywords.json",
-    "snapshot_path": "metadata/keyword-registry.snapshot.json",
-    "source": "https://raw.githubusercontent.com/dan-beranek/dio-odi-reference-model/main/metadata/keywords.json"
+    "snapshot_path": "metadata/keyword-registry.snapshot.json"
   },
   "artifacts": [
     {
